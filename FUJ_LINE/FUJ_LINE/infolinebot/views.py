@@ -44,10 +44,10 @@ line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 parser = WebhookParser(settings.LINE_CHANNEL_SECRET)
 global PATH 
 # 請改成 sheet_cred的絕對路徑
-PATH =  '/Users/jzhuang/Desktop/專案&接案/診所機器人/infolinebot/sheet_cred.json'
+PATH =  'FUJ_LINE/FUJ_LINE/infolinebot/sheet_cred.json'
 # 請改成 credentials.json的絕對路徑
 global PATH2
-PATH2 = '/Users/jzhuang/Desktop/專案&接案/診所機器人/infolinebot/credentials.json'
+PATH2 = 'FUJ_LINE/FUJ_LINE/infolinebot/credentials.json'
 
 
 def getsheet_member(): # 患者基本資料表讀取
